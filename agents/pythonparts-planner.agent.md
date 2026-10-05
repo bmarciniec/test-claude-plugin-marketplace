@@ -1,11 +1,11 @@
 ---
 description: "Use when the user wants to plan or scope a new PythonPart before any code is written. Trigger phrases: plan a PythonPart, design a PythonPart, requirements for PythonPart, what should this PythonPart do, PythonPart workflow, implementation plan. Produces a structured implementation plan only — does not write or edit code."
-name: "PythonParts Planner"
+name: pythonparts-planner
 tools: [read, search, vscode/askQuestions, pythonparts-knowledge-mcp/*, pythonparts-local-mcp/*, microsoft/markitdown/*]
 argument-hint: "Describe the PythonPart you want to build (even roughly)..."
 handoffs:
   - label: Start Implementation
-    agent: PythonParts Coder
+    agent: pythonparts-coder
     prompt: Now implement the plan outlined above.
 ---
 

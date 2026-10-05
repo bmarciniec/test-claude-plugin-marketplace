@@ -7,29 +7,24 @@
         "email": "pythonparts@allplan.com",
         "url": "https://www.allplan.com"
     },
-    "channels": [
-        {
-            "server": "pythonparts-local-mcp",
-            "userConfig": {
-                "allplan_version": {
-                    "type": "string",
-                    "title": "Allplan version",
-                    "description": "Version of the ALLPLAN installation (e.g., 2027)",
-                    "sensitive": false
-                },
-                "std_path": {
-                    "type": "string",
-                    "title": "Std path",
-                    "description": "Path to the ALLPLAN Std directory (e.g., c:\\Data\\Allplan\\Allplan 2027\\Std)",
-                    "sensitive": false
-                },
-                "usr_path": {
-                    "type": "string",
-                    "title": "Usr path",
-                    "description": "Path to the ALLPLAN Usr directory (e.g., c:\\Users\\<username>\\Documents\\Nemetschek\\Allplan\\2027\\Usr\\Local)",
-                    "sensitive": false
-                }
-            }
+    "userConfig": {
+        "allplan_version": {
+            "type": "string",
+            "title": "Allplan version",
+            "description": "Version of the ALLPLAN installation (e.g., 2027)",
+            "required": true
+        },
+        "std_path": {
+            "type": "directory",
+            "title": "Std path",
+            "description": "Path to the ALLPLAN Std directory (e.g., c:\\Data\\Allplan\\Allplan 2027\\Std)",
+            "required": true
+        },
+        "usr_path": {
+            "type": "directory",
+            "title": "Usr path",
+            "description": "Path to the ALLPLAN Usr directory (e.g., c:\\Users\\<username>\\Documents\\Nemetschek\\Allplan\\2027\\Usr\\Local)",
+            "required": true
         }
-    ]
+    }
 }

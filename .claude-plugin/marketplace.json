@@ -1,0 +1,9 @@
+{
+    "name": "pythonparts-test-marketplace",
+    "description": "Plugins for coding ALLPLAN's PythonParts",
+    "owner": {
+        "name": "ALLPLAN GmbH",
+        "url": "https://www.allplan.com",
+        "email": "pythonparts@allplan.com"
+    }
+}

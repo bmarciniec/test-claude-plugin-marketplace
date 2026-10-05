@@ -5,5 +5,13 @@
         "name": "ALLPLAN GmbH",
         "url": "https://www.allplan.com",
         "email": "pythonparts@allplan.com"
-    }
+    },
+    "plugins": [
+        {
+            "name": "pythonparts-test-plugin",
+            "displayName": "PythonParts Test Plugin",
+            "source": "./",
+            "description": "A test plugin for coding ALLPLAN's PythonParts"
+        }
+    ]
 }

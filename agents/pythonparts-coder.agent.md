@@ -1,7 +1,8 @@
 ---
 name: pythonparts-coder
 description: "Use when an implementation plan for a PythonPart already exists and needs to be turned into code, or when directly asked to write/modify PythonParts scripts and pyp files. Trigger phrases: implement the plan, PythonPart, pyp file, PythonParts framework, AllplanGeometry, BaseInteractor, create element, reinforcement, PythonPart script, parameter dialog."
-tools: [Read, Edit, Glob, Grep, mcp__pythonparts-knowledge-mcp, mcp__pythonparts-local-mcp]
+tools: [Read, Edit, Glob, Grep, plugin:pythonparts-test-plugin:pythonparts-knowledge-mcp, plugin:pythonp
+arts-test-plugin:pythonparts-local-mcp]
 argument-hint: "Paste the implementation plan, or describe the PythonPart to implement..."
 ---
 

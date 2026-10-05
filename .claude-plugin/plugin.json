@@ -1,7 +1,7 @@
 {
     "name": "pythonparts-test-plugin",
     "description": "A test plugin for vibe coding PythonParts",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": {
         "name": "Allplan GmbH",
         "email": "pythonparts@allplan.com",

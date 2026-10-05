@@ -1,7 +1,8 @@
 ---
 description: "Use when the user wants to plan or scope a new PythonPart before any code is written. Trigger phrases: plan a PythonPart, design a PythonPart, requirements for PythonPart, what should this PythonPart do, PythonPart workflow, implementation plan. Produces a structured implementation plan only — does not write or edit code."
 name: pythonparts-planner
-tools: [Read, Grep, Glob, AskUserQuestion, mcp__pythonparts-knowledge-mcp, mcp__pythonparts-local-mcp]
+tools: [Read, Grep, Glob, AskUserQuestion, plugin:pythonparts-test-plugin:pythonparts-knowledge-mcp, plugin:pythonp
+arts-test-plugin:pythonparts-local-mcp]
 argument-hint: "Describe the PythonPart you want to build (even roughly)..."
 handoffs:
   - label: Start Implementation
